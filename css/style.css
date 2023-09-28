@@ -529,6 +529,7 @@ a.more-details .fa{
 .menu-item-price p{
     font-family: 'Montez', cursive;
     text-transform: none;
+    width: max-content;
 }
 
 
@@ -831,7 +832,7 @@ a.more-details .fa{
     background-image: url('../img/pics/bkg-img5.jpg');  
 }
 .bkg-img6 {
-    background-image: url('../poze/perete.jpg');  
+    background-image: url('../poze/16.jpg');  
 }
 .bkg-img7 {
     background-image: url('../img/pics/bkg-img7.jpg');  
@@ -3636,6 +3637,13 @@ textarea:-ms-input-placeholder {
 .img-hero {
     filter: brightness(40%);
 }
+
+@media screen and (max-width: 479px) {
+    .img-hero {
+        filter: brightness(100%) !important;
+    }
+}
+
 
 .hero-meta {
     left: 50% !important;

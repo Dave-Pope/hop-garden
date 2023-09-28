@@ -1765,3 +1765,29 @@ All this is done for any sub-level being entered.
         display: none;
     }
 }
+
+@media screen and (max-width: 479px) {
+    .logo{
+        display: table;
+        margin: 20px auto;
+    }
+    .logo img {
+    }
+    
+    .logo{
+        display: table;
+        margin: 20px auto;
+    }
+    
+    .logo a {
+        display: block;
+    }
+    
+    .logo img {
+    }
+    
+    .logo-hop {
+        width: 100% !important;
+    }
+    
+}
